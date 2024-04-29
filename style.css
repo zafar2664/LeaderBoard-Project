@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto , sans-serif;
+}
+body{
+    background-color: hsla(228, 33%, 97%, 0.31);
+}
+h2{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 30px;
+}
+.form{
+    text-align: center;
+    margin: 4rem 0rem;
+
+}
+.form input{
+    margin: 0px 8px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.form #btn{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+.information{
+    width: 70%;
+    margin: 3rem auto;
+}
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 1.5rem 2.5rem;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80%;
+    margin: 1rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 2px solid rgb(73, 72, 72);
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+    padding: 1.5rem 2.5rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav{
+    margin-bottom: 1rem;
+}
+
+
+.btn{
+    padding: 8px 16px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.plus , .minus{
+    padding: 8px 16px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
